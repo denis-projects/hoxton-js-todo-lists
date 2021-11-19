@@ -1,4 +1,4 @@
-let message = ``
+let message = `Welcome to our amazing TO DO app`
 
 for(const user of users){
     message += `Hi ${user.name} your ID is ${user.id} and your address is ${user.address.city}\n`
