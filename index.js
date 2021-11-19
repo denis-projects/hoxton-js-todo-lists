@@ -4,7 +4,7 @@ for(const user of users){
     message += `Hi ${user.name} your ID is ${user.id} and your address is ${user.address.city}\n`
 }
 
-alert("Please read the message")
+alert(message)
 
 const id = Number(prompt(`Please, enter your id number: `))
 
